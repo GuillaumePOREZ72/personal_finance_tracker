@@ -1,7 +1,7 @@
 import pandas as pd  # Importation de la bibliothèque pandas pour les opérations de données
 import csv  # Importation de la bibliothèque csv pour lire et écrire des fichiers csv
 from datetime import datetime  # Importation de la classe datetime pour travailler avec les dates
-from data_entry import get_description, get_amount, get_category, get_date  # Importation des fonctions de saisie de données
+from data_entry import get_description, get_amount, get_category, get_date # Importation des fonctions de saisie de données
 import matplotlib.pyplot as plt  # Importation de la bibliothèque matplotlib pour les graphiques
 
 
@@ -42,7 +42,7 @@ class CSV:
         filtered_df = df.loc[mask]  # Filtre les transactions avec le masque
 
         if filtered_df.empty:
-            print("No transactions found in the given date range.")  # Affiche un message si aucune transaction n'est trouvée
+            print("No transactions found in the given date range.") # Affiche un message si aucune transaction n'est trouvée
         else:
             print(
                 f"Transactions from {start_date.strftime(CSV.FORMAT)} to {end_date.strftime(CSV.FORMAT)}"
