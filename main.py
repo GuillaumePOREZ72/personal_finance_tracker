@@ -5,7 +5,6 @@ from data_entry import get_description, get_amount, get_category, get_date
 import matplotlib.pyplot as plt
 
 
-
 class CSV:
     CSV_FILE = "finance_data.csv"
     COLUMNS = ["date", "amount", "category", "description"]
