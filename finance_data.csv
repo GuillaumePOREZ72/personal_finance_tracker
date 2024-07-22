@@ -1,0 +1,13 @@
+date,amount,category,description
+21-07-2024,90.0,Expense,achat sneakers
+22-07-2024,150.0,Income,salary
+01-07-2024,3000,Revenu,Salaire
+02-07-2024,-800,Dépense,Loyer
+03-07-2024,-150,Dépense,Supermarché
+04-07-2024,200,Revenu,Vente d'objets
+05-07-2024,-50,Dépense,Transport
+06-07-2024,-60,Dépense,Restaurant
+07-07-2024,500,Revenu,Freelance
+08-07-2024,-30,Dépense,Abonnement internet
+09-07-2024,-40,Dépense,Électricité,
+10-07-2024,-100,Dépense,Loisirs,
